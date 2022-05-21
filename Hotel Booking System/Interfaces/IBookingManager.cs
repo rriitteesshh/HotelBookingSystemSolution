@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
+
 
 namespace Hotel_Booking_System.Interfaces
 {
@@ -21,6 +21,6 @@ namespace Hotel_Booking_System.Interfaces
         /**
         * Return a list of all the available room numbers for the given date
         */ 
-        IEnumerable<int> getAvailableRooms(DateTime date);
+        IEnumerable<int> GetAvailableRooms(DateTime date);
     }
 }

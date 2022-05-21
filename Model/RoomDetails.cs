@@ -23,10 +23,5 @@ namespace Model
       /// Gets and Stes Guest Name
       /// </summary>
       public string Guest { get; set; }
-      
-      /// <summary>
-      /// For fast retrival of free rooms
-      /// </summary>
-      public bool Isavailable { get; set; }
     }
 }
